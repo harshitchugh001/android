@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c_shape"
+    tools:context=".MainActivity">
+<!--    <include layout="@layout/toolbarlayout" />-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:columnCount="2"
+        android:background="@drawable/c_shape"
+        android:padding="25dp"
+        android:rowCount="4"
+        tools:ignore="UnknownId"
+        tools:layout_editor_absoluteX="52dp">
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/Scrolling_View"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Scrolling View" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/toolberbtn"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Toolbar" />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/RatingBarBtn"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Ratin Bar" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/outerToolberBtn"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Outer Toolbar" />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/RatingBarBtnAv"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Ratin Av" />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/RatingBarBtnAvOut"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Toolbar Out" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/ProgressBarMain"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Progress Bar" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/MainLogin"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Login Page" />
+
+        <Button
+
+            android:id="@+id/MainFooterId"
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Footer " />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/MainCustomTost11"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Custom Tost" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/PrograessBerPreMain"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Prograess Pre " />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/pRbER"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Prograess Resit" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/c_t"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text=" custom toast " />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/c_f"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="footer 1" />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/c_ff1010"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text=" footer  " />
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/iNTENTcAMERA"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text="Import Image" />
+
+        <Button
+            android:backgroundTint="#671125"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:id="@+id/Camera_Porm"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="15dp"
+            android:paddingVertical="5dp"
+            android:text=" Camera  " />
+
+    </GridLayout>
+
+</LinearLayout>
